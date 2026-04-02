@@ -25,10 +25,9 @@ In my Auto Scaling Group select Activity Tab
 
 I verify the new instance is in the other AZ
 
-You’ll see a new instance.
-Check its Availability Zone — it should now be in the other AZ.
+You’ll see a new instance by checking its Availability Zone as it should now be in the other AZ.
 
-## Summary:
+## Summary
 
 When multiple subnets (AZs) are configured, ASG automatically shifts capacity to any healthy AZ if one becomes unavailable.
 
