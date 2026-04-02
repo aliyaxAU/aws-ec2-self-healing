@@ -18,7 +18,7 @@ I am going to monitor what Auto Scaling does:
 
 In my Auto Scaling Group select Activity Tab
 
-![alt text](<img/ASG activity-1.png>)
+![alt text](<img/ASG activity.png>)
 
 - I can see ASG detects the instance is in an AZ it’s no longer allowed to use so it terminates that instance.
 - I then see ASG immediately launches a new instance in the remaining AZ `us-east-1a`.
