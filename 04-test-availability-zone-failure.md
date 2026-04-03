@@ -18,14 +18,18 @@ I am going to monitor what Auto Scaling does:
 
 In my Auto Scaling Group select Activity Tab
 
-![alt text](<img/ASG activity.png>)
-
 - I can see ASG detects the instance is in an AZ it’s no longer allowed to use so it terminates that instance.
 - I then see ASG immediately launches a new instance in the remaining AZ `us-east-1a`.
 
-I verify the new instance is in the other AZ
+![alt text](<img/ASG activity.png>)
 
-You’ll see a new instance by checking its Availability Zone as it should now be in the other AZ.
+I can see a new instance by checking its Availability Zone as it should now be in the other AZ. In my case it's `us-east-1a` and a new PublicIP is `3.235.166.201`:
+
+![alt text](<img/ec2 in a new az.png>)
+
+Veryfying in a browser:
+
+![alt text](img/public-ip-newaz.png)
 
 ## Summary
 
