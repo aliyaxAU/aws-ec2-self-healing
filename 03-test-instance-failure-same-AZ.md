@@ -6,9 +6,9 @@ After I complete setting up the autoscaling group and launching the template, I 
 
 In EC2 Dashboard I will select Instances and confirm the ASG created one instance. I click on instance and copy the instance PUBLIC IP in browser and confirm I'm seeing:
 
-![alt text](<img/ensure instance public ip runnig.png>) 
-
 ![alt text](<img/ec2 instance running.png>)
+
+![alt text](<img/ensure instance public ip runnig.png>) 
 
 ## Simulate the issue
 
